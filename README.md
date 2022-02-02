@@ -8,7 +8,7 @@ apt -y install git
 
     Клонируем репозиторий на каждый узел кластера
 
-git clone https://github.com/tsvetkov-vladimir/docker-patroni.git
+git clone https://github.com/Striker2k18/docker-patroni-test.git
 
     Устанавливаем docker и docker-compose на каждом узле кластера
 
@@ -36,7 +36,7 @@ docker node ls
 
 Если на узле несколько сетевых интерфейсов, то необходимо указать какой именно использовать. Например
 
-docker swarm init --advertise-addr 172.28.128.4
+docker swarm init --advertise-addr 172.19.0.102
 
     Для присоединения узла в качестве докера необходимо на присоединяемом узле выполнить команду
 
