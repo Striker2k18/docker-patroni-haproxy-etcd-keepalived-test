@@ -8,7 +8,7 @@ apt -y install git
 
     Клонируем репозиторий на каждый узел кластера
 
-git clone https://github.com/Striker2k18/docker-patroni-test.git
+git clone https://github.com/Striker2k18/docker-patroni-haproxy-etcd-keepalived-test.git
 
     Устанавливаем docker и docker-compose на каждом узле кластера
 
