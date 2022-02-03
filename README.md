@@ -40,7 +40,7 @@ docker swarm init --advertise-addr 172.19.0.102
 
     Для присоединения узла в качестве докера необходимо на присоединяемом узле выполнить команду
 
-docker swarm join --token SWMTKN-1-4nxtulbtj38n3v782satsnat3eu8lm7e74ir7u6i05nepjtwe6-c61idt643vdxrs7llpjkrvsl2 82.148.18.190:2377
+docker swarm join --token SWMTKN-1-4nxtulbtj38n3v782satsnat3eu8lm7e74ir7u6i05nepjtwe6-c61idt643vdxrs7llpjkrvsl2 172.19.0.143:2377
 Запуск сервисов в кластере
 
     Выполняем команду на управляющем узле
@@ -72,7 +72,7 @@ docker ps
 
 Запустить браузер и адресной строке браузера ввести адрес
 
-http://81.163.28.31:7000
+http://172.19.0.144:7000
 
 Где: адрес сервера -- это адрес узла где запущен docker
 
